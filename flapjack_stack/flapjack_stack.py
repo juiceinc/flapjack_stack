@@ -154,8 +154,8 @@ class FlapjackStack(object):
         for i in reversed(xrange(len(self.layers))):
             obj = self.layers[i]
             stack_attributes = [attribute for attribute in obj.__dict__.keys()
-                              if not attribute.startswith('__') and
-                              not attribute.endswith('__')]
+                                if not attribute.startswith('__') and
+                                not attribute.endswith('__')]
             attributes = attributes + stack_attributes
         return list(set(attributes))
 
