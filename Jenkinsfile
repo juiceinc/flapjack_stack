@@ -18,7 +18,7 @@ set -ex
 VENV=".venv"
 python3.6 -m venv $VENV
 . "$VENV/bin/activate"
-pip3.6 install -qq -r requirements_dev.txt
+pip3.6 install -qq -r requirements-dev.txt
 echo "flake8">> flake8_errors.txt
 flake8 --output-file=flake8_errors.txt --exit-zero .'''
         }
