@@ -25,7 +25,7 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     install_requires=[
-        'PyYaml==3.12'
+        'PyYaml==5.1'
     ],
     url='https://github.com/juiceinc/flapjack_stack',
     keywords='settings flapjack_stack',
