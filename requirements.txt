@@ -1,1 +1,2 @@
-PyYaml==3.12
+-i https://pypi.python.org/simple/
+pyyaml==3.12
